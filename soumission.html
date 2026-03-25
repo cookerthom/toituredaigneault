@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de soumission - Toiture Daigneault inc.</title>
+    <meta name="description" content="Demandez une soumission gratuite pour vos travaux de toiture à Saint-Amable et en Montérégie avec Toiture Daigneault inc.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Ajustement spécifique pour que le formulaire soit bien visible sous la barre de navigation */
+        body { padding-top: 100px; }
+        .contact-section { min-height: calc(100vh - 100px); display: flex; align-items: center; border-top: none; }
+    </style>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled">
+        <div class="nav-content-fluid">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/logo.png" alt="Logo Toiture Daigneault" class="site-logo">
+                <span class="logo-text">Toiture Daigneault <span>inc.</span></span>
+            </a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html#services">Services ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="residentiel.html">Toitures résidentielles</a></li>
+                        <li><a href="bardeaux.html">Bardeaux d'asphalte</a></li>
+                        <li><a href="toit-plat.html">Toits plats & Membrane</a></li>
+                        <li><a href="reparation.html">Rénovation et réparation</a></li>
+                        <li><a href="gouttieres-soffites.html">Gouttières & Soffites</a></li>
+                        <li><a href="deneigement.html">Déneigement de toiture</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#about">À propos</a></li>
+                <li><a href="index.html#avis">Avis</a></li>
+                <li><a href="index.html#territoire">Territoire</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="tel:514-951-6344" class="btn btn-outline">514-951-6344</a>
+                <a href="soumission.html" class="btn btn-nav">Demande de soumission</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section id="soumission" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Demandez une soumission gratuite</h2>
+                    <p>Remplissez le formulaire ci-dessous et nous vous contacterons rapidement pour discuter de vos besoins en toiture.</p>
+                    <ul class="info-list">
+                        <li><strong>Téléphone :</strong> <a href="tel:514-951-6344">514-951-6344</a></li>
+                        <li><strong>Disponibilité :</strong> 24h/24, Lundi au Dimanche</li>
+                        <li><strong>Région :</strong> Saint-Amable, Montérégie et environs</li>
+                        <li><strong>RBQ :</strong> 5833-4467-01</li>
+                    </ul>
+                </div>
+                <div class="contact-form glass-panel">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required placeholder="Votre nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Votre numéro de téléphone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service requis</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Choisissez un service...</option>
+                                <option value="residentiel">Toiture résidentielle</option>
+                                <option value="plat">Toit plat / Membrane</option>
+                                <option value="bardeaux">Bardeaux d'asphalte</option>
+                                <option value="reparation">Réparation / Urgence</option>
+                                <option value="autre">Autre service</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Détails de la demande</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Décrivez vos besoins..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Envoyer ma demande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <a href="index.html" class="logo-link"><img src="assets/images/logo.png" alt="Toiture Daigneault Inc." class="footer-logo"></a>
+                    <p>Votre partenaire de confiance pour des travaux de toiture impeccables, sécurisés et durables en Montérégie.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Contactez-nous</h3>
+                    <p><strong>Téléphone:</strong> <a href="tel:514-951-6344">514-951-6344</a></p>
+                    <p><strong>Heures:</strong> Ouvert 24h/24, Lundi au Dimanche</p>
+                    <p><strong>Région:</strong> Saint-Amable, Montérégie et environs</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html#services">Produits et Services</a></li>
+                        <li><a href="index.html#about">À propos</a></li>
+                        <li><a href="soumission.html">Demander une soumission</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Toiture Daigneault inc. RBQ : 5833-4467-01. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
